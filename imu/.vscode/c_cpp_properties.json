@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/Library/Arduino15/packages/OpenCR/hardware/OpenCR/1.5.3/cores/arduino",
+                "~/Library/Arduino15/packages/OpenCR/hardware/OpenCR/1.5.3/variants/OpenCR",
+                "~/Library/Arduino15/packages/OpenCR/hardware/OpenCR/1.5.3/libraries/**",
+                "~/Documents/Arduino/**"
+            ],
+            "defines": [
+                "ARDUINO=10819",
+                "ARDUINO_OpenCR",
+                "__arm__"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
